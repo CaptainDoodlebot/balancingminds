@@ -294,6 +294,17 @@ p {
   border-radius: 4px;
 }
 
+.contact-aside {
+  display: grid;
+  gap: 22px;
+}
+
+.contact-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .form-grid {
   display: grid;
   gap: 15px;
