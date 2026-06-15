@@ -305,6 +305,13 @@ p {
   height: auto;
 }
 
+.contact-map {
+  display: block;
+  width: 100%;
+  min-height: 260px;
+  border: 0;
+}
+
 .form-grid {
   display: grid;
   gap: 15px;
