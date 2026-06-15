@@ -382,6 +382,36 @@ li {
   text-decoration: none;
 }
 
+.footer-social {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.social-icon {
+  display: inline-flex;
+  width: 34px;
+  height: 34px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  color: var(--green);
+  transition: color .2s ease, border-color .2s ease, background .2s ease;
+}
+
+.social-icon:hover {
+  background: var(--soft);
+  border-color: var(--green);
+  color: var(--green-dark);
+}
+
+.social-icon svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
 @media (max-width: 780px) {
   .header-inner {
     min-height: 74px;
