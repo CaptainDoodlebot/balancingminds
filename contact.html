@@ -23,7 +23,10 @@
       <section>
         <h1>CONTACT</h1>
         <h2>To book an appointment, please fill in your details below:</h2>
-        <form class="form-grid" action="mailto:admin@balancingminds.com.au" method="post" enctype="text/plain">
+        <form class="form-grid" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="793683">
+          <input type="hidden" name="subject" value="New Balancing Minds website enquiry">
+          <input type="hidden" name="from_name" value="Balancing Minds Website">
           <label>Name *
             <input name="name" autocomplete="name" required>
           </label>
