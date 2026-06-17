@@ -323,6 +323,12 @@ p {
   gap: 18px;
 }
 
+.service-section-list {
+  display: grid;
+  gap: 22px;
+  margin-top: 34px;
+}
+
 .feature-card {
   position: relative;
   min-height: 230px;
@@ -372,6 +378,10 @@ p {
   margin-top: 22px;
 }
 
+.feature-card .button {
+  margin-top: 24px;
+}
+
 .booking-strip {
   display: flex;
   align-items: center;
@@ -399,6 +409,10 @@ p {
 
 .service-card-grid .service-summary {
   margin-top: 28px;
+}
+
+.service-section-list .service-summary {
+  margin-top: 0;
 }
 
 .about-layout {
