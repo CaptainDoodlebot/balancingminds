@@ -237,29 +237,8 @@ p {
   gap: 30px;
 }
 
-.section-intro,
 .welcome-panel {
   max-width: 760px;
-}
-
-.section-kicker {
-  display: block;
-  margin-bottom: 12px;
-  color: var(--green-dark);
-  font-size: 13px;
-  letter-spacing: 0;
-  text-transform: uppercase;
-}
-
-.section-intro h2 {
-  font-size: clamp(26px, 3vw, 34px);
-  margin-bottom: 16px;
-}
-
-.section-intro p {
-  color: #5f5f5f;
-  font-size: 18px;
-  max-width: 690px;
 }
 
 .welcome-panel {
@@ -305,15 +284,6 @@ p {
 .quick-actions a:hover {
   border-color: rgba(96, 134, 93, 0.45);
   background: #fff;
-}
-
-.services-preview {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 28px;
-  align-items: center;
-  padding-top: 36px;
-  border-top: 1px solid var(--line);
 }
 
 .feature-grid,
@@ -710,13 +680,8 @@ li {
 
   .feature-grid,
   .service-card-grid,
-  .quick-actions,
-  .services-preview {
+  .quick-actions {
     grid-template-columns: 1fr;
-  }
-
-  .services-preview {
-    align-items: flex-start;
   }
 
   .feature-card {
